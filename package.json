@@ -10,7 +10,9 @@
     "serve": "11.3.2",
     "webpack": "5.47.1",
     "webpack-cli": "4.7.2",
-    "webpack-dev-server": "3.11.2"
+    "webpack-dev-server": "3.11.2",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1"
   },
   "scripts": {
     "start": "webpack-cli serve",
