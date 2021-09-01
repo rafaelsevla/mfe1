@@ -4,7 +4,7 @@ import moment from "moment";
 export default function Widget() {
   return (
     <div
-style={{
+ style={{
         borderRadius: "4px",
         padding: "2em",
         backgroundColor: "red",

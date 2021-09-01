@@ -25,7 +25,8 @@
     "build": "webpack --mode production && rm -rf dist/main.js && mkdir ../shell/dist/mfe1 && gulp && rm -rf dist/*",
     "serve": "serve dist -p 3002",
     "clean": "rm -rf dist",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "react": "^16.13.0",
