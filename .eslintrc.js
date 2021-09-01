@@ -15,5 +15,6 @@ module.exports = {
       'space-before-function-paren': [ 'error', 'always' ],
       'radix': [ 'error', 'as-needed' ],
       'react/react-in-jsx-scope': 'off',
+      "no-loops/no-loops": 2
     }
   };
