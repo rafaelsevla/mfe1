@@ -13,6 +13,7 @@ export default function Widget() {
     >
       <h2>App 2 Widget</h2>
       <p>Mfe1 Moment Dep: {moment().format("MMMM Do YYYY, h:mm:ss a")}</p>
+      <span>{"auhsdahsd"}</span>
     </div>
   );
 }
