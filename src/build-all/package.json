@@ -1,0 +1,24 @@
+{
+  "name": "teste-all-js",
+  "main": "dist/index.js",
+  "bundleDependencies": false,
+  "version": "1.8.0",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "deprecated": false,
+  "devDependencies": {
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "rollup": "^2.58.0",
+    "typescript": "^4.4.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  }
+}

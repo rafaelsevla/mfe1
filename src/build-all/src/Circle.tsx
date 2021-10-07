@@ -5,12 +5,12 @@ export default function Widget() {
     <div
       style={{
         width: 100,
-        height: 200,
-        border: '1px solid #f00',
-        borderWidth: 10
+        height: 100,
+        borderRadius: 50,
+        border: '1px solid #404',
       }}
     >
-      
+      bolinha
     </div>
   );
 }
